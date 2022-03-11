@@ -67,9 +67,18 @@ const app = new Vue({
         /* setInterval(function () {
             time.localTime = new Date().toLocaleTimeString();
         }, 5000); */
-        setInterval: setInterval(() => {
+        /*setInterval: setInterval(() => {
             alert('tic')
-        }, 3000),
+        }, 3000),*/
+        startInterval() {
+            sticazzi = setInterval(this.next, 3000)
+        },
+        stopInterval() {
+            clearInterval(sticazzi)
+        }
+    },
+    created(){
+        this.startInterval()
     }
 })
 
