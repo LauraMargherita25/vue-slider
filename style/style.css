@@ -1,3 +1,4 @@
+/* general */
 * {
 	margin: 0;
 	padding: 0;
@@ -16,6 +17,8 @@
 	height: 300px;
 }
 
+
+/* left section */
 .slide {
 	position: relative;
 	width: 700px;
@@ -31,6 +34,8 @@
 	color: white;
 }
 
+
+/* right section */
 .thumbs {
 	position: relative;
 	width: 140px;
