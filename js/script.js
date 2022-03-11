@@ -1,4 +1,9 @@
-/* Partendo dai file nello starter implementare la funzione dei bottoni (next e previous) dello slider usando Vue (prima però create la struttura dati). */
+/* 
+- Partendo dai file nello starter implementare la funzione dei bottoni (next e previous) dello slider usando Vue (prima però create la struttura dati). 
+-  Al click su una thumb, visualizzare in grande l'immagine corrispondente
+*/
+
+
 
 // creo la struttura
 const app = new Vue({
@@ -33,5 +38,4 @@ const app = new Vue({
             },
         ]
     },
-    
 })

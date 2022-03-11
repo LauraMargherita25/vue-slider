@@ -26,7 +26,7 @@
 
             <!-- right section -->
 			<div class="thumbs">
-				<div v-for="(thumb, index) in arrSlides" class="thumb" 
+				<div v-for="(thumb, index) in arrSlides" @click="activeIndex = index" class="thumb" 
                 :class="index == activeIndex ? 'active' : ''"> <!-- if index è uguale ad activeIndex assegna classe active altrimenti non assegnare nulla -->
                 <img :src="'img/' + thumb.img" :alt="thumb.title"> 
 				</div>
