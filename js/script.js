@@ -53,6 +53,24 @@ const app = new Vue({
             } else {
                 this.activeIndex--; 
             }
-        }
+        },
+        /* setInterval(){
+            if (this.activeIndex == this.arrSlides.length - 1) {
+                this.activeIndex = 0; 
+            } else {
+                this.activeIndex++; 
+            } (3000);
+        } */
+
+        // setInterval(() => alert('tic'), 2000);
+
+        /* setInterval(function () {
+            time.localTime = new Date().toLocaleTimeString();
+        }, 5000); */
+        setInterval: setInterval(() => {
+            alert('tic')
+        }, 3000),
     }
 })
+
+
