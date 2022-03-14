@@ -71,10 +71,10 @@ const app = new Vue({
             alert('tic')
         }, 3000),*/
         startInterval() {
-            sticazzi = setInterval(this.next, 3000)
+            interval = setInterval(this.next, 3000)
         },
         stopInterval() {
-            clearInterval(sticazzi)
+            clearInterval(interval)
         }
     },
     created(){
